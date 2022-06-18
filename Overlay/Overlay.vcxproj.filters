@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Overlay\Overlay.cpp">
+    <ClCompile Include="src\include\Overlay\Overlay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\main.cpp">
@@ -23,14 +23,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Overlay\Overlay.h">
+    <ClInclude Include="src\include\Overlay\Overlay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\glfw\include\GLFW\glfw3native.h">
+    <ClInclude Include="src\include\glfw\include\glfw3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\glfw\include\GLFW\glfw3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="src\include\glfw\glfw3.lib" />
   </ItemGroup>
 </Project>

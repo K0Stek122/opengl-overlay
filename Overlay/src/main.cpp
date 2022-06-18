@@ -1,6 +1,6 @@
 #pragma once
-#include "glfw/include/GLFW/glfw3.h"
-#include "Overlay/Overlay.h"
+#include "include/glfw/include/glfw3.h"
+#include "include/Overlay/Overlay.h"
 
 int main()
 {
