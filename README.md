@@ -1,7 +1,9 @@
 # opengl-overlay
  An overlay created in C++ OpenGL
 
-An overlay which is written in OpenGL/GLFW and C++. (WARNING: the glfw used is the `a465c1c32e0754d3de56e01c59a0fef33202f04c` branch, this is due to the fact that we need to set the hint `GLFW_MOUSE_PASSTHROUGH` to true.)
+An overlay which is written in OpenGL/GLFW and C++.
+
+WARNING: the glfw used is the `a465c1c32e0754d3de56e01c59a0fef33202f04c` branch, this is due to the fact that we need to set the hint `GLFW_MOUSE_PASSTHROUGH` to true.
 
 # Example Usage
 ```C++
