@@ -45,5 +45,7 @@ namespace Kostek
 			float r, float g, float b);
 		void DrawEmptyCircle(int x, int y, float radius,
 			float r, float g, float b);
+
+		void DrawPoint(int x, int y, float pointSize, float r, float g, float b);
 	};
 }

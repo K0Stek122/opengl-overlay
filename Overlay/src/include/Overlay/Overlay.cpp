@@ -160,3 +160,12 @@ void Kostek::Overlay::DrawEmptyCircle(int x, int y, float radius, float r, float
 	glEnd();
 }
 
+void Kostek::Overlay::DrawPoint(int x, int y, float pointSize,float r, float g, float b)
+{
+	glPointSize(pointSize);
+	glBegin(GL_POINTS);
+	glColor3f(r, g, b);
+	glVertex2i(x, y);
+	glEnd();
+	glPointSize(1.f);
+}
