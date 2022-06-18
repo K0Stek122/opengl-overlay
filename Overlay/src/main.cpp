@@ -1,5 +1,3 @@
-#pragma once
-#include "include/glfw/include/glfw3.h"
 #include "include/Overlay/Overlay.h"
 
 int main()
@@ -11,13 +9,11 @@ int main()
 	{
 		while (overlay->Run())
 		{
-			/*
 			overlay->DrawEmptyRect(100, 100, 25, 25, 1, 0, 0);
 			overlay->DrawRect(500, 500, 25, 25, 1, 1, 0);
 			overlay->DrawCircle(200, 100, 50.f, 0, 1, 0);
-			overlay->DrawEmptyCircle(300, 300, 60.f, 0, 0, 1);
-			*/
-			overlay->DrawPoint(150, 150, 15.f, 1, 0, 0);
+			overlay->DrawEmptyCircle(300, 300, 100.f, 0, 0, 1);
+			overlay->DrawPoint(500, 150, 15.f, 1, 0, 0);
 
 			overlay->Handle();
 		}
