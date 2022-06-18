@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a4c7a2c2-a98b-48d1-98be-50dc95827100": {
+      "ProjectGuid": "a4c7a2c2-a98b-48d1-98be-50dc95827100",
+      "DisplayName": "Overlay",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
